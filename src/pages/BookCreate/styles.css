@@ -1,0 +1,37 @@
+#list{
+    padding: 1rem 0;
+}
+
+#list-content {
+    width: 70vw;
+    height: max-content;
+    border-radius: 0.8rem;
+    background: var(--color-background-content);
+    padding: 2rem 5rem;
+    font: 400 1.3rem Archivo;
+    line-height: 1.6;
+ 
+}
+
+#list-content .button-container {
+    padding-top: 1rem;
+}
+
+#list-content .create-button{
+    justify-content: center;
+    border: none;
+    width: 8vw;
+    height: 5vh;
+    border-radius: 0.4rem;
+    font: 400 1.2rem Archivo;
+    color: var(--color-background);
+    cursor: pointer;
+
+    background: var(--color-button);
+    transition: background-color 0.2s;
+}
+
+#list-content .create-button:hover{
+    color: var(--color-background);
+    background: var(--color-button-darker);
+}

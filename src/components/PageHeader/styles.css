@@ -1,0 +1,8 @@
+#logo-container {
+    padding-bottom: 2vh;
+    font: 400 1.5rem Archivo;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

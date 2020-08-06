@@ -1,0 +1,60 @@
+#home{
+    padding: 1rem 0;
+}
+
+#home-content {
+    width: 70vw;
+    height: 100vh;
+    border-radius: 0.8rem;
+    background: var(--color-background-content);
+    padding: 2rem 5rem;
+    font: 400 1.3rem Archivo;
+    line-height: 1.6;
+
+    display: grid;
+    text-align: justify;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "logo"
+        "button"
+    ;    
+
+    max-height: 350px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button-container a {
+    width: 20rem;
+    height: 5.4rem;
+    border-radius: 0.8rem;
+    font: 700 2.0rem Archivo;
+    cursor: pointer;
+
+    text-decoration: none;
+    color: var(--color-background);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    background: var(--color-button);
+    transition: background-color 0.2s;
+}
+
+.button-container a:hover {
+    background: var(--color-button-darker);
+}
+
+h2 {
+    padding-bottom: 5vh;
+    font: 400 1.8rem Archivo;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

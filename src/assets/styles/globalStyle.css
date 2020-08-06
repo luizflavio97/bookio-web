@@ -1,0 +1,29 @@
+:root{
+    font-size: 80%;
+
+    --color-background: #FAFAFF;
+    --color-background-darker: #EBEBEB;
+    --color-background-content: #FFC145;
+    --color-title-primary: #463F3A;
+    --color-title-secondary: #8A817C;
+    --color-button: #4A314D;
+    --color-button-darker: #302032;
+    --color-button-delete: #EB4034;
+    --color-button-delete-darker: #C9372C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--color-background);
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

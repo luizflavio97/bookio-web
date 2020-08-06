@@ -1,0 +1,91 @@
+.list-item {
+    background: var(--color-background);
+    border-radius: 0.8rem;
+    margin-top: 2.4rem;
+    overflow: hidden;
+}
+
+.list-item header{
+    padding: 3.2rem 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.list-item header img {
+    width: 8rem;
+    height: 8rem;
+}
+
+.list-item header div {
+    margin-left: 2.4rem;
+}
+
+.list-item header div strong {
+    font: 700 1.8rem Archivo;
+    display: block;
+    color: var(--color-title-primary)
+}
+
+.list-item header .author {
+    font: 700 1.2rem Archivo;
+    display: block;
+    color: var(--color-title-primary)
+}
+
+.list-item header div span {
+    font-size: 1.2rem;
+    display: block;
+    margin-top: 0.4rem;
+    color: var(--color-title-primary)
+}
+
+.list-item p {
+    padding: 0 2rem;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+}
+
+.list-item footer {
+    padding: 2rem 2rem;
+    background: var(--color-background-darker);
+    margin-top: 3.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-item footer .update-button {
+    padding: 0.4rem;
+    background: var(--color-button);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.4rem;
+    color: var(--color-background);
+    font: 700 1.2rem Archivo;
+    transition: background-color 0.2s;
+}
+
+.list-item footer .update-button:hover {
+    background: var(--color-button-darker);
+}
+
+.list-item footer .delete-button {
+    border: none;
+    padding: 0.4rem;
+    background: var(--color-button-delete);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.4rem;
+    color: var(--color-background);
+    font: 700 1.2rem Archivo;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.list-item footer .delete-button:hover {
+    background: var(--color-button-delete-darker);
+}
